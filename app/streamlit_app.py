@@ -101,7 +101,23 @@ Predict interstate traffic volume using:
 - Traffic behavior features
 """)
 
+with st.expander("About This Project"):
+
+    st.write("""
+    This project predicts interstate traffic volume
+    using weather conditions and temporal traffic patterns.
+
+    The model was trained using XGBoost
+    and optimized with Optuna.
+    """)
+
 st.divider()
+
+st.sidebar.subheader("Model Performance")
+
+st.sidebar.write("R² Score: 0.9412")
+
+st.sidebar.write("RMSE: 478.28")
 
 
 # ============================================
@@ -229,6 +245,10 @@ input_df = pd.DataFrame({
     ]
 
 })
+
+st.sidebar.markdown(
+    "[GitHub Repository](https://github.com/Uche-creator-debug/metro-interstate-traffic-volume-ml.git)"
+)
 
 
 # ============================================

@@ -23,6 +23,11 @@ The final deployed application allows users to interactively predict traffic vol
 - Traffic-related features
 
 ---
+## Live Demo
+
+[Metro Interstate Traffic Volume App](https://metro-interstate-traffic-volume-ml.streamlit.app/)
+
+---
 
 # 📂 Dataset
 
@@ -159,10 +164,19 @@ SHAP analysis revealed that:
 This confirms that commuter behavior and temporal patterns dominate interstate traffic dynamics.
 
 ---
+# 🔍 SHAP Explainability
+
+![SHAP Summary](figures/shap_summary.png)
+
+---
 
 # 🚀 Streamlit Application
 
 An interactive Streamlit dashboard was developed for real-time traffic prediction.
+
+# 📸 Application Preview
+
+![Traffic App](figures/app_dashboard.png)
 
 ## Features
 - Interactive sidebar controls
