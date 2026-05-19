@@ -94,13 +94,6 @@ h1, h2, h3 {
 
 st.title("🚦 Interstate Traffic Volume Prediction")
 
-st.markdown("""
-Predict interstate traffic volume using:
-- Time patterns
-- Weather conditions
-- Traffic behavior features
-""")
-
 with st.expander("About This Project"):
 
     st.write("""
