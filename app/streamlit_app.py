@@ -106,15 +106,14 @@ with st.expander("About This Project"):
     and optimized with Optuna.
     """)
 
-st.divider()
+    st.subheader("Model Performance")
 
-st.sidebar.header("Model Performance")
+    st.write("R² Score: 0.94")
 
-st.sidebar.write("R² Score: 0.94")
-
-st.sidebar.write("RMSE: 478.28")
+    st.write("RMSE: 478.28")
 
 st.divider()
+
 # ============================================
 # SIDEBAR INPUTS
 # ============================================
@@ -489,7 +488,7 @@ else:
 st.divider()
 
 st.caption("""
-Developed using:
+Developed by Uchechukwu Macdonald Iwumezie using:
 - Streamlit
 - XGBoost
 - SHAP Explainability
