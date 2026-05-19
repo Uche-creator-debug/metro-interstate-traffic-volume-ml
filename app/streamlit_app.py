@@ -94,6 +94,8 @@ h1, h2, h3 {
 
 st.title("🚦 Interstate Traffic Volume Prediction")
 
+st.divider()
+
 with st.expander("About This Project"):
 
     st.write("""
