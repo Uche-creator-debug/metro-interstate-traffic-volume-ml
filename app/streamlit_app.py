@@ -108,13 +108,13 @@ with st.expander("About This Project"):
 
 st.divider()
 
-st.sidebar.subheader("Model Performance")
+st.sidebar.header("Model Performance")
 
-st.sidebar.write("R² Score: 0.9412")
+st.sidebar.write("R² Score: 0.94")
 
 st.sidebar.write("RMSE: 478.28")
 
-
+st.divider()
 # ============================================
 # SIDEBAR INPUTS
 # ============================================
