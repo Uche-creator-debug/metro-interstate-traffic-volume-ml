@@ -108,9 +108,9 @@ with st.expander("About This Project"):
 
     st.subheader("Model Performance")
 
-    st.write("R² Score: 0.94")
+    st.write("**R² Score:** 0.94")
 
-    st.write("RMSE: 478.28")
+    st.write("**RMSE:** 478.28")
 
 st.divider()
 
